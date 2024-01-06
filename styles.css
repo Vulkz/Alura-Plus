@@ -141,3 +141,33 @@ body {
 .lista__link a:hover {
     color: var(--botao-azul);
 }
+
+@media screen and (max-width: 768px) {
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .rodape__lista, 
+    .dispositivos__lista {
+        display: block;
+    }
+
+}
